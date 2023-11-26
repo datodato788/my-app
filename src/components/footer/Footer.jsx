@@ -2,7 +2,7 @@ import React from 'react';
 import styles from 'src/components/footer/footer.module.css';
 import Image from 'next/image';
 
-
+/**დავალება შესრულებულია */
 
 function Footer() {
   return (
