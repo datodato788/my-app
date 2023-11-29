@@ -1,12 +1,12 @@
 .container{ 
- background-color: aqua;
- height: 100px;
- display: flex;
- justify-content: space-between;
- align-items: center;
-}
-.links { display: flex;
-    gap: 20px;
+    background-color: aqua;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    
-}
+   }
+   .links { display: flex;
+       gap: 20px;
+       align-items: center;
+       
+   }
