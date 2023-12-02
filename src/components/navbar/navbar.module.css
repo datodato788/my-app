@@ -1,5 +1,5 @@
 .container{ 
-    background-color: aqua;
+    background-color: ;
     height: 100px;
     display: flex;
     justify-content: space-between;
@@ -9,4 +9,17 @@
        gap: 20px;
        align-items: center;
        
+   }
+   .logo {
+    font-weight: bold;
+    font-size: 22px;
+   }
+   
+   .logout {
+    padding: 5px;
+    border: none;
+    background-color: rgb(12, 153, 141);
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
    }

@@ -38,11 +38,13 @@ function Navbar() {
 
   return (
     <div className={styles.container}>
-      <div>Main</div>
+      <Link href="/" className={styles.logo}>
+        Lamamia</Link>
       <div className={styles.links}>
         {links.map((link) => (
           <Link href={link.url}>{link.title}</Link>
         ))}
+        <button className={styles.logout}>Logout</button>
       </div>
     </div>
   );
