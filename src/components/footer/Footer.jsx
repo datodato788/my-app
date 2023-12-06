@@ -1,26 +1,34 @@
 import React from 'react';
 import styles from 'src/components/footer/footer.module.css';
 import Image from 'next/image';
+import Link from 'next/link';
 
-/**დავალება შესრულებულია */
 
 function Footer() {
   return (
     <div className={styles.container}>
-      <span>@all rights reserved</span>
+      <div>@all right reserved</div>
       <div className={styles.socialNetworks}>
-          <Image src="/1.png" width={15} className={styles.icon} height={15} alt="facebook" />
-          <Image src="/2.png" width={15} className={styles.icon} height={15} alt="instagram" />
-          <Image src="/3.png" width={15} className={styles.icon} height={15} alt="x" />
-          <Image src="/4.png" width={15} className={styles.icon} height={15} alt="youtube" />
-</div>
-    
-    
-    
-    
-    
+
+        <a href='https://www.facebook.com/'>
+          <Image src="/1.png" width={15} className={styles.Icon} height={15} alt='Facebook' />
+        </a>
+
+        <a href='https://www.instagram.com/'>
+          <Image src="/2.png" width={15} className={styles.Icon} height={15} alt='Instagram' />
+        </a>
+
+        <a href='https://twitter.com/'>
+          <Image src="/3.png" width={15} className={styles.Icon} height={15} alt='Twitter' />
+        </a>
+        <a href='https://www.youtube.com/'>
+          <Image src="/4.png" width={15} className={styles.Icon} height={15} alt='Youtube' />
+        </a>
+
+
+
+      </div>
     </div>
   );
 }
-
 export default Footer;
