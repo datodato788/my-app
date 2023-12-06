@@ -1,4 +1,4 @@
-.container {
+.container{
 
 
 }
@@ -19,4 +19,21 @@
     background-color: #53c28b;
     color: white;
     padding: 5px;
+}
+.textContainer {
+    display: flex;
+    gap: 100px;
+    margin-top: 50px;
+
+}
+.item {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.desc {
+    font-weight: 300;
+    font-size: 18px;
+    text-align: justify;
 }
