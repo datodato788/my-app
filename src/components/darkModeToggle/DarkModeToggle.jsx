@@ -10,7 +10,8 @@ function DarkModeToggle() {
     <div className={styles.icon}>🌙</div>
     <div className={styles.icon}>🔆</div>
     <div className={styles.ball} />
-  </div>
+    
+</div>
   );
 }
 
