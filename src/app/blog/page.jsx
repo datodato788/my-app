@@ -3,6 +3,11 @@ import styles from "./page.module.css";
 import Link from "next/link";
 import Image from "next/image";
 
+const getData = async () => {
+  donst res = await fetch("https://api.escuelajs.co/api/v1/products")
+}
+
+
 function Blog() {
   return (
     <div className={styles.mainContainer}>
