@@ -4,7 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 const getData = async () => {
-  donst res = await fetch("https://api.escuelajs.co/api/v1/products")
+  const res = await fetch("https://api.escuelajs.co/api/v1/products")
 }
 
 
