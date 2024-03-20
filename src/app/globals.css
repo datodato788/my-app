@@ -1,40 +1,39 @@
 * {
-  box-sizing: border-box ;
+  box-sizing: border-box;
   padding: 0;
   margin: 0;
-  
-  
 }
 
 html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
-
 }
-.container { 
+
+.container {
   max-width: 1366px;
-  min-height:100vh;
+  min-height: 100vh;
   margin: 0 auto;
   padding: 0 60px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
+
 a {
-    text-decoration: none;
-    color: inherit;
-  }
+  text-decoration: none;
+  color: inherit;
+}
 
 .theme {
-  transition:2s all ease;
-
+  transition: 2s all ease;
 }
 
 .dark {
   background-color: #111;
   color: #bbb;
 }
+
 .light {
   background-color: white;
   color: #111;

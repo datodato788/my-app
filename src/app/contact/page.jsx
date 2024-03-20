@@ -6,7 +6,7 @@ import Image from "next/image";
 function Contact() {
   return (
     <div>
-      <h1 className={styles.title}>Let's Kepp in Touch</h1>
+      <h1 className={styles.title}>Let's Keep in Touch</h1>
       <div className={styles.content}>
         <div className={styles.imgContainer}>
           <Image
@@ -16,22 +16,20 @@ function Contact() {
             className={styles.image}
           />
         </div>
-        <from className={styles.from}>
+        <form className={styles.form}>
           <input type="text" placeholder="name" className={styles.input} />
           <input type="text" placeholder="email" className={styles.input} />
-          <textarea className={styles.textArea} 
-          placeholder="message" 
-          cols="30" 
-          rows="10"
+          <textarea
+            className={styles.textArea}
+            placeholder="message"
+            cols="30"
+            rows="10"
           ></textarea>
-          <Button title={"send"} url={"/"} />
-        </from>
+          <Button title={"Send"} url={"/"} />
+        </form>
       </div>
     </div>
-
-
-
-  )
+  );
 }
 
-export default Contact
+export default Contact;

@@ -1,17 +1,17 @@
-.container{ 
-    
-    height: 50px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 14px;
+.container {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
 }
-.socialNetworks{
-    display: flex;
-    align-items: center;
-    gap: 10px;
+
+.socialNetworks {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
-.icon{
-    cursor: pointer;
-    
+
+.icon {
+  cursor: pointer;
 }
