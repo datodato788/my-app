@@ -1,7 +1,7 @@
 import Button from "@/components/button/Button";
 import styles from "./page.module.css";
 import Image from 'next/image'
-import Hero from 'public/Hero.png'
+
 
 export default function home() {
   return (
@@ -14,13 +14,7 @@ export default function home() {
         <Button title={"See Our Works"} url={"/portfolio"}/>
       </div>                                  
       <div className={styles.item}>
-        <Image
-          src={Hero}
-          alt="Hero"
-          className={styles.img}
-
-
-        />
+ 
       </div>
     </main>
 
